@@ -1,13 +1,21 @@
-﻿body{
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif, Arial;
+}
+
+body{
     margin: 0;
-    display: block;
-    font-family: arial, sans-serif;
+    width: 100%;
 }
 
 header{
-    width: 100%;
-    height: 70px;
     position: relative;
+    padding: 30px;
+    margin: 0;
+    width: 100%;
 }
 
 .wrapper{
@@ -16,165 +24,148 @@ header{
     max-width: 1000px;
 }
 
-.log{
-    position: relative;
-    float: left;
-    width: 100px;
-}
-  
-.logo{
-    position: relative;
-    float: left;
-    width: 150px;
-    height: 70px;
+
+h1.titulo{
+    color: #00008B;
+    font-weight: bold;
+    text-align: left;
 }
 
-div{
-    display: block;
-    margin: 0;
-    width: 100%;
-} 
-
-
-h1{
-    color: #000066;
-    text-align: center;
+h2{
     font-size: 40px;
+    font-weight: bold;
 }
-p{
-    text-align: justify;
+
+p.cor{
     font-size: 20px;
-}
-
-.headcor{
-    background-color: #000066;
-    background-image: -webkit-linear-gradient(top, #000066 0%,#00008B 100%);
-  
-}
-
-.menu{
-    list-style: none;
-    float: left;
-    margin-left: 400px;
-}
-
-.menu li{
-    position: relative;
-    float: left;
-}
-
-.menu li a{
+    text-align: justify;
     color: #FFFFFF;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
 }
 
-.menu li a:hover{
-    background: #FFFFFF;
-    color: #FFD700;
-    box-shadow: rgb(51, 51, 51);
-    text-shadow: 0px 0px 5px #fff;
-}
-
-.menu li ul{
-    position: absolute;
-    top: 25px;
-    left: 0;
-    background-color: #00008B;
-    display: none;
-}
-
-.menu li:hover ul, .menu li.over ul{
-    display: block;
-}
-
-menu li ul li{
-    border: 1px solid #c0c0c0;
-    display: block;
-    width: 150px;
-}
-
-li{
-    display: block;
-    font-size: 17px;
-    font-weight: bold;  
-}
-
-.content{
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    top: 100px;
-}
-
-
-.img1{
-    position: relative;
+.banner{ 
     width: 100%;
     height: 500px;
 }
 
+ul.nav{
+    display: flex;
+}
 
-p.textcolor{
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    background-color: #000066;
+    background-image: -webkit-linear-gradient(top, #000066 0%, #00008B 100%);
+    margin-bottom: 10px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
     color: #FFFFFF;
+    padding: 15px 15px;
+    font-weight: bold;
 }
 
-h1.color{
-    color: #FFFFFF;
+a:hover{
+    background-color: #FFFFFF;
+    color: #FFF000;
 }
 
-p, h3, .curso{
-    font-size: 19px;
-    color: #00008B;
-}
-
-.photo{
-    width: 340px;
-    height: 300px;
-    margin-top: 20px;
-    margin-left: 700px;
+section, article{
+    margin: 0;
+    width: 100%;
+    padding: 10px
 }
 
 .box{
     position: relative;
-    float: left;
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     padding: 15px 30px 30px 30px;
     background-color: transparent;
-    margin-top: -80px;
-    margin-left: 200px;
 }
 
-div .box1{
-    position: relative;
-    float: left;
-    width: 100%;
-    max-width: 340px;
-    padding: 15px;
-    background-color: transparent;
-    margin-left: 100px;
+.box.mg{
+    margin-top: 20px;
+    margin-left: 200px;
+    color: #FFFFFF;
 }
 
 div.degrade{
     position: relative;
-    float: left;
     background-color: #F0F8FF;
     background-image: -webkit-linear-gradient(top, #F0F8FF 0%,#00008B 100%);
     padding: 0;
+    width: 100%;
     height: 600px;
 }
 
-div.amarelo{
-    position: relative;
-    float: left;
-    padding: 0;
-    width: 100%;
-    background-color: #F0F8FF;
+div.column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-div.corfundo{
-    background-color: #FFD700
+.img-curso{
+    width: 480px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.box.c{
+    background-color: #A9A9A9;
+    background-image: -webkit-linear-gradient(top, #D3D3D3 0%,#A9A9A9 100%);
+    color: #FF4500;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+
+
+div.central{
+    color: #FFFFFF;
+    background-color: #f4511e;
+    display: flex;
+    flex-direction: row;
+}
+
+div.lateral{
+    width: 40%;
+    margin-left: 10px;
+}
+
+div.meio{
+    width: 60%;
+}
+
+/* div.formacao{
+    background-color: #F0FFF0;
+    background-image: -webkit-linear-gradient(top, #F0FFF0 0%, #F5FFFA 100%);
+ } */
+
+article{
+    width: 100%;
+    background-color: #aaaaaa;
+}
+
+footer{
+    background-color: #000066;
+    background-image: -webkit-linear-gradient(top, #000066 0%, #00008B 100%);
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px){
+    div.column{
+        flex-direction: column;
+    }    
 }
