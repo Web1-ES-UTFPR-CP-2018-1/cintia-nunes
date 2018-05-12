@@ -1,8 +1,13 @@
-body{
-    margin: 0;
-    width: 100%;
+html, body{
     height: auto;
+    min-height: 100vh;
+    font-family: 'Rubik', sans-serif;
 }
+body{
+    font-style: normal;
+    line-height: 1.5px;
+}
+
 
 div img{
     width: 100%;
@@ -17,19 +22,252 @@ div.carousel-caption{
     text-align: left;
 }
 
-nav.color{
-    background-color: #2a3e67;
-}
- 
-ul.navbar-nav{
-   margin-left: 70%;
+/* nav-bar */
+
+.cid-qRM06v9Y8h .navbar {
+    background: #333333;
+    transition: none;
+    min-height: 77px;
+    padding: .5rem 0;
 }
 
-nav a{
-    font-size: 17px;
-    color: #fff;
-    padding: 5% 7%;
-    font-weight: 600;
+.navbar-dropdown.navbar-fixed-top {
+    position: fixed;
+}
+
+.navbar-dropdown {
+    left: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.45s ease;
+    z-index: 1030;
+    background: #282828;
+}
+
+.cid-qRM06v9Y8h a{
+font-style: normal;
+}
+
+.menu .navbar-toggleable-sm .navbar-colapase{
+    display: -webkit-flex !important;
+}
+
+div.menu-logo{
+    left: 1rem;
+}
+
+.cid-qRM06v9Y8h .menu-logo {
+    flex-shrink: 0;
+}
+
+.cid-qRM06v9Y8h .menu-logo {
+    margin-right: auto;
+}
+
+.cid-qRM06v9Y8h .menu-logo .navbar-brand {
+    display: flex;
+    margin-left: 5rem;
+    padding: 0;
+    transition: padding .2s;
+    min-height: 3.8rem;
+    align-items: center;
+}
+
+.menu .navbar-brand {
+    display: -webkit-flex;
+}
+
+section{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+section, .container .container-fluid{
+    position: relative;
+    word-wrap: break-word;
+}
+
+section{
+    background-color: #eeeeee;
+}
+
+
+.navbar-dropdown .navbar-logo{
+    margin-right: 0.8rem;
+}
+
+.cid-qRM06v9Y8h .navbar-toggleable-sm .navbar-collapse {
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    padding-right: 5rem;
+    width: auto;
+}
+
+.cid-qRM06v9Y8h .nav-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 0 !important;
+    margin: 0rem .65rem !important;
+}
+
+ul .display-4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+.nav-dropdown .link {
+    margin: .667em 1.667em;
+    font-weight: 500;
+    padding: 0;
+    transition: color .2s ease-in-out;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+li a{
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* fim navbar */
+
+/* section o que é engenharia */
+
+.cid-qRMWwdGuLU {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #efefef;
+}
+
+.display-7 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+}
+/*  */
+
+.cid-qRNW01Pfbo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #2e2e2e;
+}
+
+.cid-qRNW01Pfbo .section-text {
+    padding: 2rem 0;
+}
+
+div.inner-container{
+    color: #ffffff;
+}
+.align-center{
+    text-align: center;
+}
+
+section .article{
+    height: auto;
+}
+
+div .display-5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+}
+
+/*  */
+
+.mbr-overlay {
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+div .display-1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.25rem;
+    font-weight: 400;
+}
+
+
+.img-opacity{
+    opacity: 0.9; 
+    background-color: rgb(15, 118, 153);
+}
+
+/* Mercado de trabalho */
+
+.cid-qRQT9hnCCl {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f8f8f8;
+}
+
+.display-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+}
+
+.mbr-section-title {
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cid-qRQT9hnCCl .reverse {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+}
+.cid-qRQT9hnCCl .timeline-element {
+    margin-bottom: 50px;
+    position: relative;
+    word-wrap: break-word;
+    word-break: break-word;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.cid-qRQT9hnCCl .reverse .timeline-text-content {
+    margin-left: 2rem;
+    margin-right: 0;
+}
+.cid-qRQT9hnCCl .timeline-text-content {
+    padding: 2rem 2.5rem;
+    background: #e7e7e7;
+    margin-right: 2rem;
+    transition: all .4s;
+}
+
+.cid-qRQT9hnCCl .reverse {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+}
+.align-left {
+    text-align: left;
 }
 
 div.dropdown-menu{
@@ -40,14 +278,19 @@ div.dropdown-menu a{
     font-size: 15px;
 }
 
-div.card{
-    margin: 80px 80px 40px 80px;
-    padding: 6%;
+div.text-card{
+    padding: 7%;
+    margin: 5%;
 }
 
+div.margem{
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
 
 h3.card-title{
     text-align: center;
+    font-weight: 600;
 }
 
 p.card-text{
@@ -55,32 +298,11 @@ p.card-text{
 }
 
 
-div h2{
-    margin-top: 3%;
-}
 
-/* div.card h3{
-    color: #007bff;
-} */
-
-div.container{
-    margin: 60px 20px 20px 60px;
-}
-
-div.container h3{
-    text-align: center;
-}
-
-div.container p{
-    text-align: justify;
-}
-
-div.card-header h4{
-    color: #2a3e67;
-}
 
 footer{
-    background-color: #2a3e67;
+    background: #333333;
     width: 100%;
-    height: 10%;
+    height: 50%;
+  margin: 0;  
 }
