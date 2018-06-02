@@ -8,31 +8,15 @@ body{
     line-height: 1.5px;
 }
 
-
-div img{
-    width: 100%;
+.display-1, .display-2, .display-4, 
+.display-5, .display-6, .display-7{
+    font-family: 'Rubik', sans-serif;
 }
-
-div.carousel-caption{
-    bottom: 50px;
-    left: 6%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-}
-
-.campus-cp{
-    top: 50px;
-    text-transform: uppercase;
-    font-style: italic;
-}
-/* nav-bar */
-
-.cid-qRM06v9Y8h .navbar {
-    background: #333333;
+.mn1 .navbar {
+    background-color: #333;
+    opacity: 0.9;
     transition: none;
-    min-height: 77px;
+    min-height: 60px;
     padding: .5rem 0;
 }
 
@@ -47,11 +31,10 @@ div.carousel-caption{
     right: 0;
     top: 0;
     transition: all 0.45s ease;
-    z-index: 1030;
-    background: #282828;
+    z-index: 1030; 
 }
 
-.cid-qRM06v9Y8h a{
+.mn1 a{
 font-style: normal;
 }
 
@@ -59,28 +42,19 @@ font-style: normal;
     display: -webkit-flex !important;
 }
 
-div.menu-logo{
-    left: 1rem;
-}
-
-.cid-qRM06v9Y8h .menu-logo {
+.mn1 .menu-logo {
     flex-shrink: 0;
 }
 
-.cid-qRM06v9Y8h .menu-logo {
+.mn1 .menu-logo {
     margin-right: auto;
 }
 
-.cid-qRM06v9Y8h .menu-logo .navbar-brand {
-    display: flex;
-    margin-left: 5rem;
-    padding: 0;
-    transition: padding .2s;
-    min-height: 3.8rem;
-    align-items: center;
+.menu-logo .navbar-brand {
+    display: flex;    
 }
 
-.menu .navbar-brand {
+.mn1 .menu .navbar-brand {
     display: -webkit-flex;
 }
 
@@ -96,22 +70,21 @@ section, .container .container-fluid{
 }
 
 section{
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
-
 
 .navbar-dropdown .navbar-logo{
-    margin-right: 0.8rem;
+    margin-left: 2rem;
 }
 
-.cid-qRM06v9Y8h .navbar-toggleable-sm .navbar-collapse {
+.navbar-toggleable-sm .navbar-collapse {
     justify-content: flex-end;
     -webkit-justify-content: flex-end;
-    padding-right: 5rem;
+    margin-right: 2rem;
     width: auto;
 }
 
-.cid-qRM06v9Y8h .nav-item a {
+.nav-item a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,14 +93,20 @@ section{
 }
 
 ul .display-4 {
-    font-family: 'Rubik', sans-serif;
     font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
 }
+
+div .display-5 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
 .nav-dropdown .link {
     margin: .667em 1.667em;
     font-weight: 500;
     padding: 0;
-    transition: color .2s ease-in-out;
 }
 
 a, a:hover{
@@ -144,31 +123,71 @@ li a{
     font-weight: 400;
 }
 
-/* fim navbar */
 
-/* section o que é engenharia */
+div img{
+    width: 100%;
+}
 
-.cid-qRMWwdGuLU {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: #efefef;
+.parallax{
+    background-image: url("../imagens/coding-924920_1920.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.carousel-caption{
+    bottom: 15%;
+    right: 3%;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.display-6{
+    font-size: 1.8rem;
 }
 
 .display-7 {
-    font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
+    color: #333;
 }
+
+div.card{
+    padding: 3%;
+    background-color: #fafafa;
+    text-align: justify;
+}
+
+
+div.textheader{
+    color: #fff;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+div.transbox {
+    background-image: url("../imagens/code-coder-coding-34600.jpg");
+    border: 1px solid #ffffff;
+    height: auto; 
+}
+  
+.campus-cp{
+    top: 50px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.mn2{
+    margin: 15% 0;
+}
+
+.mn3 {
+    background-color: #00a1c5;
+}
+
 /*  */
-
-.cid-qRNW01Pfbo {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #2e2e2e;
-}
-
-.cid-qRNW01Pfbo .section-text {
-    padding: 2rem 0;
-}
 
 div.inner-container{
     color: #ffffff;
@@ -181,14 +200,11 @@ section .article{
     height: auto;
 }
 
-div .display-5 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 2rem;
-}
 
 /*  */
-
-
+div a{
+    text-decoration-color: none;
+}
 
 div .display-1 {
     font-family: 'Rubik', sans-serif;
@@ -197,21 +213,16 @@ div .display-1 {
 }
 
 i.fa{
-    color: #ffffff;
+    color: #1978a5;
     font-size: 500%;
 }
 div.curso{
     text-align: center;
-    background-color: #11799c;
-    color: #ffffff;
+    color: #00a1c5;
     font-style: italic;
-    padding: 7% 2%;
+    padding: 3% 2% 5%;
 }
 
-a h5{
-    color: #ffffff;
-    text-decoration: none;
-}
 
 div.icons-media-container{
     padding: 7% 0 0;
@@ -219,10 +230,10 @@ div.icons-media-container{
 
 /* Mercado de trabalho */
 
-.cid-qRQT9hnCCl {
+.mn4 {
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: #efefef;
+    text-justify: auto;
 }
 
 .display-2 {
@@ -230,14 +241,6 @@ div.icons-media-container{
     font-size: 4rem;
 }
 
-.mbr-section-title {
-    font-style: normal;
-    line-height: 1.2;
-}
-
-.pb-3, .py-3 {
-    padding-bottom: 1rem !important;
-}
 
 .container {
     width: 100%;
@@ -247,36 +250,6 @@ div.icons-media-container{
     margin-left: auto;
 }
 
-.cid-qRQT9hnCCl .reverse {
-    flex-direction: row-reverse;
-    -webkit-flex-direction: row-reverse;
-}
-.cid-qRQT9hnCCl .timeline-element {
-    margin-bottom: 50px;
-    position: relative;
-    word-wrap: break-word;
-    word-break: break-word;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-}
-
-.cid-qRQT9hnCCl .reverse .timeline-text-content {
-    margin-left: 2rem;
-    margin-right: 0;
-}
-.cid-qRQT9hnCCl .timeline-text-content {
-    padding: 2rem 2.5rem;
-    background: #ffffff;
-    margin-right: 2rem;
-    transition: all .4s;
-}
-
-.cid-qRQT9hnCCl .reverse {
-    flex-direction: row-reverse;
-    -webkit-flex-direction: row-reverse;
-        flex-direction: row-reverse;
-}
 .align-left {
     text-align: left;
 }
@@ -295,8 +268,8 @@ div.text-card{
 }
 
 div.margem{
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 h3.card-title{
@@ -308,13 +281,24 @@ p.card-text{
     text-align: justify
 }
 
+div.transcard{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    background: rgba(0,0,0,0.4);
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
 footer{
-    background: #ffffff;
+    background: #333;
     margin: 0;  
 }
 
 footer p{
-    color: #696969;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -332,11 +316,11 @@ a.fa{
     font-size: 180%;
     text-decoration: none;
     text-align: right;
-    margin: 23% 0 0;
+    margin: 8% 0 0;
 }
 
 .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
-    color: #696969;
+    color: #fff;
     text-decoration: none;
   }
 
