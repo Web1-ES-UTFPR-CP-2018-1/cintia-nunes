@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Engenharia de Software</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/n-style.css">
+
+    <link rel="icon" href="imagens/logo_software.png" type="image/gif" sizes="16x16">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,269 +25,375 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   
-
 </head>
 
-
 <body>
-
-
     <section>
-        <div id="home" class="parallax">
-            <div class="container textheader">
-                <div class="inner-container text-center" style="margin-top:250px">
-                    <p class="display-1">Bem Vindo a Engenharia de Software</p>
-                    <p class="display-3" style="font-style: italic">
-                        Venha conosco transformar o mundo
-                    </p>
-
-                    <div class="mn2">
-                        <a href="#software" class="fa fa-chevron-circle-down"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section>
-        <nav id="menu" class="navbar">
-            <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">
                         <img src="imagens/logo_software.png" alt="logo" style="width: 3.8rem; height: 3.8rem">
                     </a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#engSoftware">Engenharia de Software</a>
-                    </li>
-                    <li>
-                        <a href="#utfpr">UTFPR</a>
-                    </li>
-                    <li>
-                        <a href="#mercadoTrabalho">Mercado de Trabalho</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#curso">Curso</a>
+                        </li>
+                        <li>
+                            <a href="#sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </section>
-    
 
-    <section class="content">
-        <div class=" container text-center">
-            <p class="display-2">O que é Engenharia de Software?</p>
+    <section>
+        <div id="home" class="parallax">
+            <div class="container text-center">
+                <div class="inner-container" style="margin-top:250px">
 
-            <div class="row mn2">
-                <div class="col-sm-4">
-                    <i class="fa fa-get-pocket"></i>
-                    <br>
-                    <p>Qualidade</p>
-                </div>
-                <div class="col-sm-4">
-                    <i class="fa fa-laptop"></i>
-                    <br>
-                    <p>Desnvolvimento</p>
-                </div>
-                <div class="col-sm-4">
-                    <i class="fa fa-rocket"></i>
-                    <br>
-                    <p>Inovação</p>
+                    <!-- Trocar fonte -->
+
+                    <p class="display-1">
+                        <br>Venha conosco
+                        <br> transformar o mundo
+                    </p>
+
+                    <!-- <p>Não é só do tradicional que se constrói o mundo</p> -->
+                    <div class="text-center">
+                        <a href="#software">
+                            <i class="fa fa-chevron-circle-down"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- breve introdução a engenharia de software, antes de falar do curso -->
     <section>
-        <div id="engSoftware" class="transbox">
-            <div id="software" class="container mn2 textheader">
-                <div class="row inner-container">
-                    <div class="col-sm-4">
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="margem">
-                            <div class="text-justify">
-                                <p class="display-3">
-                                    Talvez um dos primeiros pensamentos que vem a cabeça quando pensamos em Engenharia de Software seja Programação e não estamos
-                                    errados em pensar dessa forma, mas não é só em programação que essa área se restringe.
-                                    <br> Engenharia de Software é uma área voltada ao desenvolvimento, manutenção e criação de
-                                    sistemas, com aplicação de tecnologias e práticas de gerencia de projetos e outras disciplinas,
-                                    visando organização, produtividade e qualidade.
-                                </p>
+        <div class="container mn2 text-center">
+            <p class="display-2">
+                Por que você deve fazer
+                <br> Engenharia de Software
+            </p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="figura1" src="imagens/coaching-coders-coding-7374.jpg" alt="coaching-coders">
+                </div>
+                <div class="col-sm-6 text-left">
+                    <p class="display-3" style="margin-top: 50px">Muito provavelmente você já deve ter sonhado em trabalhar em uma grande empresa de tecnologia como o
+                        Facebook, Google, Twitter, Microsoft, Apple ou em alguma Startup como a Nubank e tantas outras que
+                        estão em ascensão no mercado brasileiro, mas você já parou para pensar que tipo de graduação precisa
+                        fazer para alcançar esse objetivo? Então saiba que um dos profissionais mais buscados por esses segmentos
+                        atualmente são os Engenheiros de Software.
+                        <br> No entanto, não basta definir o que fazer você tem que escolher onde fazer e a UTFPR está aqui para
+                        te ajudar alcançar seus objetivos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section>
+        <div id="curso" class="transbox">
+            <div class="container mn2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="mg1 logo-software" src="imagens/28661131_2050781834938617_7047590182132006812_n.png" alt="logo_curso">
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="display-2 d2">Curso</p>
+                        <p class="display-3 d3">
+                            O curso busca formar profissionais capazes em atuar no planejamento, construção, gestão, seja de projetos ou de qualidade,
+                            e na manutenção de produtos de software, para atender as necessidades da sociedade no desenvolvimento
+                            de sistemas de gestão empresarial ou em sistemas de redes sociais.
+                            <br> A graduação proporciona amplo conhecimento e domínio de técnicas de programação e dos processos
+                            para o desenvolvimento de software, bem como estimula o estudante a iniciar seu próprio negócio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row mn2 text-center">
+                <div class="col-sm-4">
+                    <div id="c1" class="circle">
+                        <a href="http://www.utfpr.edu.br/cornelioprocopio/cursos/bacharelados/Ofertados-neste-Campus/engenharia-de-software" target="_blank">
+                            <i class="fa fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                    <h3 class="display-3">Formação</h3>
+                </div>
+
+                <div class="col-sm-4">
+                    <div id="c2" class="circle">
+                        <a href="http://www.utfpr.edu.br/cornelioprocopio/cursos/bacharelados/Ofertados-neste-Campus/engenharia-de-software/sobre-o-curso/disciplinas-e-ementarios"
+                            target="_blank">
+                            <i class="fa fa-book"></i>
+                        </a>
+                    </div>
+                    <h3 class="display-3">Disciplinas</h3>
+                </div>
+
+                <div class="col-sm-4">
+                    <div id="c3" class="circle">
+                        <a href="http://www.utfpr.edu.br/cornelioprocopio/cursos/bacharelados/Ofertados-neste-Campus/engenharia-de-software/docentes/docentes"
+                            target="_blank">
+                            <i class="fa fa-users"></i>
+                        </a>
+                    </div>
+                    <h3 class="display-3">Docentes</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="sobre" class="parallax p2">
+            <div class="container text-right">
+                <div class="row">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6 mg">
+                        <p class="display-2 d2">Oportunidades</p>
+                        <p class="display-5">Uma das grandes características da Utfpr é proporcionar o contato do estudante com o mercado de trabalho
+                            logo nos primeiros períodos de curso</p>
+
+                        <br>
+                        <br>
+                        <p class="display-3 d3">Se você gosta de pesquisa e tem interesse em participar de projetos científicos e tecnológicos ou
+                            se possui uma ideia de negócio e gostaria de desenvolver esse projeto, aqui é o lugar certo para
+                            você
+                        </p>
+
+                        <br>
+                        <a href="http://www.utfpr.edu.br/cornelioprocopio/estrutura-universitaria/diretorias/direc/departamentos/hotel-tecnologico"
+                            target="_blank">
+                            <input type="button" class="btn btn-info" value="Mais informações" step="font-weight:800">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="gradiente">
+            <div class="container text-center">
+                <div class="mn2">
+                    <p class="display-2 d21">Já pensou estudar em outro país?</p>
+
+                    <br>
+                   
+                    <p class="display-6">
+                        Então saiba que a Utfpr é parceira de muitas Universidades em outros países e possui vários programas de mobilidade estudantil
+                    </p>
+
+                    <br>
+                    <br>
+                    <a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prorec/diretoria-de-relacoes-interinstitucionais/intercambio/o-que-e"
+                        target="_blank">
+                        <input type="button" class="btn btn-light" value="Saiba mais">
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section>
+
+        <div class="slide-show">
+            <div class="container">
+                <div id="showComents" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#showComents" data-slide-to="0" class="active"></li>
+                        <li data-target="#showComents" data-slide-to="1"></li>
+                        <li data-target="#showComents" data-slide-to="2"></li>
+                        <li data-target="#showComents" data-slide-to="3"></li>
+                        <li data-target="#showComents" data-slide-to="4"></li>
+                    </ol>
+                    <p class="display-2 d23 text-center">O que alguns de nossos alunos dizem sobre o Curso</p>
+                    <div class="row">
+                        <div class="col-md-12 margem">
+                            <div id="feed">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <div class="col-xs-8">
+                                            <div class="media">
+                                                <a class=" media-right" href="#">
+                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Aluno xxx</h4>
+                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="col-xs-8">
+                                            <div class="media">
+                                                <a class="media-right" href="#">
+                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Aluno xxx</h4>
+                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="col-xs-8">
+                                            <div class="media">
+                                                <a class="media-right" href="#">
+                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Aluno xxx</h4>
+                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="col-xs-8">
+                                            <div class="media">
+                                                <a class="media-right" href="#">
+                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Aluno xxx</h4>
+                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="col-xs-8">
+                                            <div class="media">
+                                                <a class="media-right" href="#">
+                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Aluno xxx</h4>
+                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
-
-    <section>
-        <div id="utfpr" class="container text-center  mn2">
-            <p class="display-2">Curso</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus justo, bibendum eget fermentum nec, tempor
-                ultrices est.</p>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card margem">
-                        <div class="text-card">
-                            <h3 class="card-title">Formação</h3>
-                            <p class="card-text">O aluno formado no curso terá sólida formação em sistemas computacionais e de produção, tendo
-                                em vista a criação de sistemas de software de alta qualidade, será capaz de criar soluções
-                                para problemas complexos e entender a importância da inovação e criatividade para o desenvolvimento
-                                de software.
-                            </p>
-                            <a href="http://www.utfpr.edu.br/cornelioprocopio/cursos/bacharelados/Ofertados-neste-Campus/engenharia-de-software" target="_blank">
-                                <input type="button" class="btn btn-info" value="Mais Infomações">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card margem">
-                        <div class="text-card">
-                            <h3 class="card-title">Disciplinas</h3>
-                            <p class="card-text">A matriz curricular do Curso aparesenta disciplinas e atividades, que consolidam um processo
-                                que busca oferecer um ensino de excelência e promover a responsabilidade social, permitindo
-                                uma formação sólida e de qualidade valorizando a afinidade do aluno com àreas específicas
-                                da Engenharia de Software.
-                            </p>
-                            <a href="http://www.utfpr.edu.br/cornelioprocopio/cursos/bacharelados/Ofertados-neste-Campus/engenharia-de-software/sobre-o-curso/disciplinas-e-ementarios"
-                                target="_blank">
-                                <input type="button" class="btn btn-info" value="Mais Infomações">
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card margem">
-                        <div class="text-card">
-                            <h3 class="card-title">Docentes</h3>
-                            <p class="card-text">Os professores do curso possuem uma sólida formação voltada a área e buscam sempre o melhor desenvolvmento
-                                de seus alunos.
-                            </p>
-                            <a href="http://www.utfpr.edu.br/cornelioprocopio/cursos/bacharelados/Ofertados-neste-Campus/engenharia-de-software/docentes/docentes"
-                                target="_blank">
-                                <input type="button" class="btn btn-info" value="Mais Infomações">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="parallax p2"></div>
-    </section>
-
-    <section>
-        <div id="mercadoTrabalho" class="container text-center mn2">
-            <h1>Mercado de Trabalho</h1>
-            <p>O Brasil é um dos países com maior crescimento no mercado de software do mundo</p>
-
-            <div class="row mn4 text-left">
-                <div class="col-sm-6">
-                    <img src="imagens/coaching-coders-coding-7374.jpg" alt="coaching">
-                </div>
-                <div class="col-sm-6">
-                    <span>Segundo a Associação Brasileira das Empresas de Software (ABES), o Brasil ocupa o sétimo lugar entre
-                        os maiores mercados de softwres no mundo.
-                    </span>
-                    <br>
-                    <br>
-                    <br>
-                    <span>Em 2016, movimentou cerca de 39,6 bilhoes de doláres, representando 2,1% do PIB brasileiro e 1,9% do
-                        total de investimentos de TI no mundo.
-                    </span>
-                    <br>
-                    <br>
-                    <br>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus justo, bibendum eget fermentum nec,
-                        tempor ultrices est. Proin a lectus urna.
-                    </span>
-                </div>
-            </div>
-
-            <div class="row mn4 text-left">
-                <div class="col-sm-6">
-                    <span>Como mensionamos no início, Engenharia de Software não se restringe apenas à uma área. Algumas das áreas
-                        mais procuradas são: </span>
-                    <br>
-                    <br>
-                    <br>
-                    <span>O desenvolvimento de softwres e aplicativos, onde os engenheiros podem desenvolver jogos, plataformas
-                        disgitais, sistemas de bancos, entre outros.
-                    </span>
-                    <br>
-                    <br>
-                    <br>
-                    <span>Gerenciamento de projetos..</span>
-                    <br>
-                    <br>
-                    <br>
-                    <span>Lorem Ipsum..</span>
-
-                </div>
-                <div class="col-sm-6">
-                    <img src="imagens/code-coding-computer-879109.jpg" alt="code_computer">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Contato -->
 
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-4 mg text-left">
+                    <p class="display-5 d55">Endereço</p>
+                    <p class="p1">Av. Alberto Carazzai, 1640 - Centro
+                        <br> Cornélio Procópio - PR, 86300-000</p>
+                </div>
+
+                <div class="col-sm-4 mg text-center">
+                    <p id="contato" class="display-5 d55">Contato</p>
+                    <p class="p1">Tel: (43) 3520-4000</p>
+                </div>
+
+                <div class="col-sm-4 mg text-right">
+
                     <a href="http://portal.utfpr.edu.br/">
                         <img src="imagens/logo_UTFPR_cor_variacao_texto.png" alt="logo-UTFPR" target="_blank">
                     </a>
-                    <p>&copy; Copyright Engenharia de Software-UTFPR 2018</p>
-                </div>
 
+                    <br>
+                    <a href="https://www.facebook.com/engenhariadesoftware.utfpr.cp/" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/utfpr_" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/canaldaUTFPR" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/utfpr_/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
 
-                <div class="col-sm-6 text-right">
-                    <a href="https://www.facebook.com/engenhariadesoftware.utfpr.cp/" class="fa fa-facebook" target="_blank"></a>
-                    <a href="https://twitter.com/utfpr_" class="fa fa-twitter" target="_blank"></a>
-                    <a href="https://www.youtube.com/user/canaldaUTFPR" class="fa fa-youtube" target="_blank"></a>
-                    <a href="https://www.instagram.com/utfpr_/" class="fa fa-instagram" target="_blank"></a>
-                    <a id="home" href="#" class="	fa fa-chevron-circle-up"></a>
                 </div>
             </div>
-
+            <hr class="h">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="p1">&copy; Copyright Engenharia de Software-UTFPR 2018</p>
+                </div>
+            </div>
         </div>
-
     </footer>
 
 
 
     <script>
-        window.onscroll = function () { menuFixo() };
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.navbar-default').css("background-color", "#222")
+                $('.navbar-default').css("border-color", "#222")
 
-        var navbar = document.getElementById("menu");
-        var sticky = navbar.offsetTop;
-
-        function menuFixo() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
             }
-        }
+            else {
+                $('.navbar-default').css("background-color", "#f8f8f8")
+                $('.navbar-default').css("border-color", "#f8f8f8")
+
+            }
+        });
+
+        $('.carousel[data-type="multi"].item').each(function () {
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < 1; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+
     </script>
 </body>
 

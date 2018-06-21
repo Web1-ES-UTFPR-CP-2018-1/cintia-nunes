@@ -1,95 +1,15 @@
 html, body{
     height: auto;
     min-height: 100vh;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     font-style: normal;
     line-height: 1.5px;
 }
 
-.navbar{
-    background-color: #f1f1f1;
-    transition: none;
-    min-height: 80px;
-    padding: 1rem 0;
-}
-
-.navbar a{
-    color: #3d424f;
-    font-size: 1.7rem;
-}
-
-
-.parallax{
-    background-image: url("../imagens/coding-924920_1920.jpg");
-    min-height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
-.fa-chevron-circle-down{
-    color: #fff;
-}
-
-  
-.mn1 a{
-font-style: normal;
-}
-
-
-div.mn2{
-     margin-top: 130px;
-     margin-bottom: 50px;
-}
-
-.mn3 {
-    background-color: #05748d;
-}
-
-p.display-1{
-    font-size: 4.0rem;
-    text-transform: uppercase;
-}
-
-p.display-2{
-    font-size: 3.4rem;
-    color: #2c2f3e;
-}
-
-p.display-3{
-    font-size: 1.8rem;
-}
-
-p.display-4{
-    font-size: 1.3rem;
-}
-
-
-div.transbox {
-    background-image: url("../imagens/code-coder-coding-34600.jpg");
-    border: 1px solid #ffffff;
-    height: auto; 
-}
-
 section{
-    background-position: 50% 50%;
+    /* background-position: 50% 50%; */
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -97,24 +17,254 @@ section{
 section, .container .container-fluid{
     position: relative;
     word-wrap: break-word;
+    margin: 0;
 }
 
 section{
     background-color: #ffffff;
 }
 
-ul .display-4 {
-    font-size: 1rem;
+
+section .article{
+    height: auto;
+}
+
+/* navbar */
+
+.navbar{
+    transition: none;
+    min-height: 80px;
+    padding: 1rem 0;
+}
+
+a.navbar-brand{
+    padding-top: 8px;
+} 
+
+
+
+.parallax{
+    background-image: url("../imagens/pexels-photo-160109.jpeg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax.p2{
+    background-image: url("../imagens/code-coding-computer-879109.jpg");
+}
+
+.btn.btn-info{
+    font-weight: 600;
+    background-color: #006edc;
+    border-color: #006edc;
+}
+
+/* fontes */
+
+p.display-1{
+    font-family: 'Montserrat';
+    font-size: 6.0rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+p.display-2{
+    font-family: 'Montserrat'; 
+    font-size: 4.4rem;
     color: #2c2f3e;
     font-weight: 600;
 }
 
-div .display-5 {
+p.display-2.d2{ 
+    color: #ffffff;
+}
+
+p.display-2.d21{ 
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+p.display-2.d23{ 
+    font-size: 2.8rem;
+}
+
+
+p.display-2.d22{
+    color: #006edc;
+}
+
+a, p.display-3{
+    font-size: 1.7rem;   
+}
+
+p.display-3.d3{
+    color: #fff;
+    font-weight: 600;    
+}
+
+p.display-4{
+    font-size: 1.6rem; 
+    color: #3d424f;
+}
+
+p.display-4.d4{
+    font-weight: 600;
+}
+
+ul .display-4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p.display-5 {
     font-size: 2.5rem;
     color: #fff;
 }
 
-a, a:hover{
+p.display-6{
+    font-size: 2rem;
+    color: #fff;
+}
+
+p.display-5.d55, p.p1{
+    color: #999999;
+}
+
+hr.h{
+    border-top: 1px solid #999;
+}
+/* classes mn */
+
+.mn1 a{
+    font-style: normal;
+}
+    
+div.mn2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+    
+.mn3 {
+    background-color: #05748d;
+}
+
+.mn4 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-justify: auto;
+}
+
+
+div.margem{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/* imagens */
+
+img.mg1{
+    border: 4% 0;
+}
+
+img.figura1{
+    margin-top: 15%;
+    margin-left: 35%;
+    width: 40%;
+    height: auto;
+}
+
+/* div.carousel-inner img{
+    width: 50%;
+    height: auto;
+} */
+
+img.mg1.logo-sofware{
+    padding: 3%;
+}
+
+img.logo-software{
+    width: 75%;
+    height: auto;
+}
+img{
+    width: 100%;
+}
+
+div.transbox {
+    background-image: url("../imagens/code-coder-coding-34600.jpg");
+    border: 1px solid #ffffff;
+    height: auto; 
+}
+/* icones */
+
+div.gradiente{
+    background-color: #006edc;
+    background: linear-gradient(-225deg, #0d6ce7f3 0, #73d3e9 100%); 
+}
+
+.btn.btn-light{
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #006edc; 
+}
+
+
+div.circle{
+    margin-left: 30%;
+}
+
+i.fa{
+    color: #006edc;
+    font-size: 60px;
+    margin-top: 30%;
+}
+
+a.fa{
+    font-size: 120%;
+    text-decoration: none;
+}
+
+
+i.fa-facebook, i.fa-twitter, i.fa-youtube, 
+i.fa-instagram {
+    color: #999999;
+    font-size: 25px;
+    margin-top: 3%;
+    padding: 2% 0;
+  }
+
+i.fa-chevron-circle-up, i.fa-chevron-circle-down{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+i.fa.f1, p.display-5.d5{
+    color: #fff;
+}
+
+div.icones{
+    padding: 5%;
+}
+
+
+/* elementos da tag <a> */
+
+a, a:hover, a.fa{
     text-decoration: none;
 }
 
@@ -128,124 +278,91 @@ li a{
     font-weight: 400;
 }
 
-
-div img{
-    width: 100%;
+li.a:hover{
+    text-decoration: none;
 }
+
+
+
+/* cards */
 
 div.card{
     padding: 3%;
-    background-color: #fafafa;
-    text-align: justify;
+    background-color: transparent;
+    
 }
 
-
-div.textheader{
-    color: #fff;
-    font-style: italic;
-    font-weight: 600;
+a.thumbnail, a.img{
+    border: none;
 }
-
-.campus-cp{
-    top: 50px;
-    text-transform: uppercase;
-    font-style: italic;
-}
-
-div.inner-container{
-    color: #ffffff;
-}
-.align-center{
-    text-align: center;
-}
-
-section .article{
+a.media-right{
+    width: 20%;
     height: auto;
 }
 
-div a{
-    text-decoration-color: none;
+div.media{
+    padding: 5%;
 }
 
-div .display-1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 4.25rem;
-    font-weight: 400;
+div.media-body{
+    padding: 3%;
 }
-
-i.fa{
-    color: #1978a5;
-    font-size: 500%;
-}
-div.curso{
-    text-align: center;
-    color: #00a1c5;
-    font-style: italic;
-    padding: 3% 2% 5%;
-}
-
-div.icons-media-container{
-    padding: 7% 0 0;
-}
-
-
-div.parallax.p2{
-    background-image: url("../imagens/DSC0827.jpg")
-}
-
-.mn4 {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    text-justify: auto;
-}
-
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-div.text-card{
-    padding: 7%;
-    margin: 5%;
-}
-
-div.margem{
-    margin-top: 10%;
-    margin-bottom: 10%;
+div.card.c1, div.media{
+    margin-left: 20%;
+    background-color: #f1f1f1;
+    width: 800px;
+    height: 200px;
 }
 
 h3.card-title{
     text-align: center;
     font-weight: 600;
+    color: #3d424f;
 }
 
 
-div.transcard{
-    box-shadow: 0 0 10px rgba(0,0,0,.3);
-    background: rgba(0,0,0,0.4);
+ol.carousel-indicators li{
+    border: 2px solid #006edc;
+    background-color: #006edc;
+}
+
+ol.carousel-indicators {
+    bottom: -20px;
+}
+div.carousel{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+div.slide-show{
+    background-color: #fff;
+}
+div.text{
+    margin-top: 10%;
+    margin-left: 20%;
 }
 
 
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
+div.mg{
+    margin: 8%  0 0;
 }
 
 footer{
-    background: #f1f1f1;
-    margin: 0;  
+    margin: 0; 
+    background-color: #2e2e2e;
+    background: linear-gradient(-225deg,#333333 0,#2e2e2e 100%);
 }
 
 footer p{
-    color: #3d424f;
+    color: #fff;
     font-weight: 400;
     font-size: 14px;
 }
 
+
+footer p.display-5{
+    color: #fff;
+}
 footer a{
     padding: 2%;
 }
@@ -253,23 +370,4 @@ footer a{
 footer img{
     width: 30%;
     height: auto;
-    margin: 8% 0;
 }
-
-a.fa{
-    font-size: 180%;
-    text-decoration: none;
-    text-align: right;
-    margin: 8% 0 0;
-}
-
-.fa-facebook, .fa-twitter, .fa-youtube, 
-.fa-instagram, .fa-chevron-circle-up {
-    color: #3d424f;
-    text-decoration: none;
-  }
-
-
-  div.f2{
-      background-color: #2c2f3e;
-  } 
