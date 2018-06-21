@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Engenharia de Software</title>
 
-    <link rel="stylesheet" href="css/n-style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" href="imagens/logo_software.png" type="image/gif" sizes="16x16">
 
@@ -38,7 +38,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="imagens/logo_software.png" alt="logo" style="width: 3.8rem; height: 3.8rem">
+                        <img id="logo" src="imagens/logo_software.png" alt="logo" style="width: 3.8rem; height: 3.8rem">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -62,7 +62,7 @@
     </section>
 
     <section>
-        <div id="home" class="parallax">
+        <div class="parallax">
             <div class="container text-center">
                 <div class="inner-container" style="margin-top:250px">
 
@@ -75,7 +75,7 @@
 
                     <!-- <p>Não é só do tradicional que se constrói o mundo</p> -->
                     <div class="text-center">
-                        <a href="#software">
+                        <a href="#topo">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
                     </div>
@@ -94,7 +94,7 @@
                 <div class="col-sm-6">
                     <img class="figura1" src="imagens/coaching-coders-coding-7374.jpg" alt="coaching-coders">
                 </div>
-                <div class="col-sm-6 text-left">
+                <div id="home" class="col-sm-6 text-left">
                     <p class="display-3" style="margin-top: 50px">Muito provavelmente você já deve ter sonhado em trabalhar em uma grande empresa de tecnologia como o
                         Facebook, Google, Twitter, Microsoft, Apple ou em alguma Startup como a Nubank e tantas outras que
                         estão em ascensão no mercado brasileiro, mas você já parou para pensar que tipo de graduação precisa
@@ -200,7 +200,7 @@
                     <p class="display-2 d21">Já pensou estudar em outro país?</p>
 
                     <br>
-                   
+
                     <p class="display-6">
                         Então saiba que a Utfpr é parceira de muitas Universidades em outros países e possui vários programas de mobilidade estudantil
                     </p>
@@ -225,7 +225,7 @@
                         <li data-target="#showComents" data-slide-to="1"></li>
                         <li data-target="#showComents" data-slide-to="2"></li>
                         <li data-target="#showComents" data-slide-to="3"></li>
-                        <li data-target="#showComents" data-slide-to="4"></li>
+                        
                     </ol>
                     <p class="display-2 d23 text-center">O que alguns de nossos alunos dizem sobre o Curso</p>
                     <div class="row">
@@ -235,12 +235,21 @@
                                     <div class="item active">
                                         <div class="col-xs-8">
                                             <div class="media">
-                                                <a class=" media-right" href="#">
-                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                <a class="media-right" href="#" style="text-decoration:none">
+                                                    <img class="logo-software" alt="150x100" src="imagens/WhatsApp Image 2018-06-21 at 13.35.47.jpeg">
+                                                    <br>
+                                                    <br>
+                                                    <h4 class="media-heading">Esdras Costa</h4>
+                                                    <p>3º Período</p>
                                                 </a>
                                                 <div class="media-body">
-                                                    <h4 class="media-heading">Aluno xxx</h4>
-                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                    <p style="margin-top: 40px;">A Engenharia de Software me trouxe uma visão mais ampla sobre o processo
+                                                        de software, que vai muito além da programação, como análise de requisitos,
+                                                        gerência de processos, gerência de testes e qualidade, entre outras.
+                                                        O mercado de trabalho está em constante expansão e a Engenharia de
+                                                        Software nos prepara para acompanhar essas mudanças, porém é preciso
+                                                        que a dedicação, criatividade e a busca por sempre aprender mais,
+                                                        seja uma característica forte de quem optar por seguir essa área.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -249,12 +258,23 @@
                                     <div class="item">
                                         <div class="col-xs-8">
                                             <div class="media">
-                                                <a class="media-right" href="#">
-                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                <a class="media-right" href="#" style="text-decoration:none">
+                                                    <acronym title="Livre Imagens por pngtree.com">
+                                                        <img class="logo-software" alt="150x100" src="imagens/78640824a973463a93382e0efe7dc049.png">
+                                                    </acronym>
+                                                    <br>
+
+                                                    <h4 class="media-heading">Bruna Caroline</h4>
+                                                    <p>3º Período</p>
                                                 </a>
+
                                                 <div class="media-body">
-                                                    <h4 class="media-heading">Aluno xxx</h4>
-                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                    <p style="margin-top: 50px;">O curso de engenharia de software eh muito bom, os professores são muito
+                                                        competentes, todas as vezes que eu precisei de auxílio da coordenação
+                                                        fui muito bem atendida. Gosto do curso tanto pelas matérias que são
+                                                        bem ministradas quanto pelo atendimento que temos fora das aulas.
+                                                        Pra aqueles que gostam de tecnologias, gostam de gerênciar projetos,
+                                                        super recomendo o curso.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -263,12 +283,28 @@
                                     <div class="item">
                                         <div class="col-xs-8">
                                             <div class="media">
-                                                <a class="media-right" href="#">
-                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                <a class="media-right" href="#" style="text-decoration:none">
+                                                    <img class="logo-software" alt="150x100" src="imagens/35686911_1752344704851228_4319506961012883456_n.jpg">
+                                                    <br>
+                                                    <br>
+                                                    <h4 class="media-heading">Caio Thizio</h4>
+                                                    <p>7º Período</p>
                                                 </a>
                                                 <div class="media-body">
-                                                    <h4 class="media-heading">Aluno xxx</h4>
-                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                    <p style="margin-top:20px;">O curso é bastante claro quanto às tarefas que nós, quando formados,
+                                                        teremos de ser capazes de performar. O plano pedagógico é bem formulado
+                                                        e as aulas estão bem divididas dentro dos semestres. O corpo docente
+                                                        é bem qualificado e as aulas são claras. O fato do curso ser noturno
+                                                        ajuda bastante no quesito de haver dois períodos livres para estudo
+                                                        ou desenvolvimento de atividades extracurriculares, como projetos
+                                                        de extensão e iniciação científica (ambas são bastante ofertadas
+                                                        aos alunos). No geral, o curso tem uma ótima proposta, e às vezes
+                                                        pode ser um pouco difícil acompanhar algumas disciplinas caso alguns
+                                                        conceitos relacionados à lógica de programação não fiquem claros.
+                                                        Acredito que o curso poderia dar um foco maior para o diferencial
+                                                        do curso, que é a capacidade de ensinar conceitos de gerenciamento
+                                                        de projetos de software. Nosso curso é quase que por inteiro voltado
+                                                        para programação.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -277,30 +313,23 @@
                                     <div class="item">
                                         <div class="col-xs-8">
                                             <div class="media">
-                                                <a class="media-right" href="#">
-                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
+                                                <a class="media-right" href="#" style="text-decoration:none">
+                                                    <img class="logo-software" alt="150x100" src="imagens/32253122_251871648885086_5381546416470491136_o.jpg">
+                                                    <br>
+                                                    <br>
+                                                    <h4 class="media-heading">Dafny Garcia</h4>
+                                                    <p>7º Período</p>
                                                 </a>
                                                 <div class="media-body">
-                                                    <h4 class="media-heading">Aluno xxx</h4>
-                                                    <p>Lorem lorem lorem lorem lorem</p>
+                                                    <p style="margin-top:50px;">O curso de Engenharia de software é muito interessante, no entanto falta
+                                                        um pouco de atenção nas disciplinas que são relacionadas a gerenciamento
+                                                        de software. No mais é um bom curso onde os professore dão o seu
+                                                        melhor para passar o máximo de conhecimento ao seus alunos.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="item">
-                                        <div class="col-xs-8">
-                                            <div class="media">
-                                                <a class="media-right" href="#">
-                                                    <img alt="150x100" src="imagens/coaching-coders-coding-7374.jpg">
-                                                </a>
-                                                <div class="media-body">
-                                                    <h4 class="media-heading">Aluno xxx</h4>
-                                                    <p>Lorem lorem lorem lorem lorem</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -313,6 +342,12 @@
 
     <footer>
         <div class="container">
+            <div class="text-center">
+                <a id="topo" href="#" data-toggle="tooltip" title="Voltar ao topo">
+                    <i class="fa fa-chevron-circle-up"></i>
+                </a>
+            </div>
+
             <div class="row">
                 <div class="col-sm-4 mg text-left">
                     <p class="display-5 d55">Endereço</p>
@@ -327,21 +362,21 @@
 
                 <div class="col-sm-4 mg text-right">
 
-                    <a href="http://portal.utfpr.edu.br/">
+                    <a href="http://portal.utfpr.edu.br/" style="text-decoration:none">
                         <img src="imagens/logo_UTFPR_cor_variacao_texto.png" alt="logo-UTFPR" target="_blank">
                     </a>
 
                     <br>
-                    <a href="https://www.facebook.com/engenhariadesoftware.utfpr.cp/" target="_blank">
+                    <a href="https://www.facebook.com/engenhariadesoftware.utfpr.cp/ style=" text-decoration:none "" target="_blank">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="https://twitter.com/utfpr_" target="_blank">
+                    <a href="https://twitter.com/utfpr_" target="_blank" style="text-decoration:none">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a href="https://www.youtube.com/user/canaldaUTFPR" target="_blank">
+                    <a href="https://www.youtube.com/user/canaldaUTFPR" target="_blank" style="text-decoration:none">
                         <i class="fa fa-youtube"></i>
                     </a>
-                    <a href="https://www.instagram.com/utfpr_/" target="_blank">
+                    <a href="https://www.instagram.com/utfpr_/" target="_blank" style="text-decoration:none">
                         <i class="fa fa-instagram"></i>
                     </a>
 
@@ -364,10 +399,12 @@
                 $('.navbar-default').css("background-color", "#222")
                 $('.navbar-default').css("border-color", "#222")
 
+
             }
             else {
                 $('.navbar-default').css("background-color", "#f8f8f8")
                 $('.navbar-default').css("border-color", "#f8f8f8")
+
 
             }
         });

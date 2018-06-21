@@ -183,6 +183,7 @@ img.figura1{
     height: auto;
 } */
 
+
 img.mg1.logo-sofware{
     padding: 3%;
 }
@@ -191,6 +192,8 @@ img.logo-software{
     width: 75%;
     height: auto;
 }
+
+
 img{
     width: 100%;
 }
@@ -238,7 +241,7 @@ a.fa{
 }
 
 
-i.fa-facebook, i.fa-twitter, i.fa-youtube, 
+i.fa-chevron-circle-up, i.fa-facebook, i.fa-twitter, i.fa-youtube, 
 i.fa-instagram {
     color: #999999;
     font-size: 25px;
@@ -246,7 +249,7 @@ i.fa-instagram {
     padding: 2% 0;
   }
 
-i.fa-chevron-circle-up, i.fa-chevron-circle-down{
+i.fa-chevron-circle-down{
     color: #fff;
     font-size: 40px;
     margin-top: 10%;
@@ -263,6 +266,11 @@ div.icones{
 
 
 /* elementos da tag <a> */
+
+a p h4, a.img{
+    text-decoration: none;
+    color: #2c2f3e;
+}
 
 a, a:hover, a.fa{
     text-decoration: none;
@@ -304,14 +312,14 @@ div.media{
     padding: 5%;
 }
 
-div.media-body{
+/* div.media-body{
     padding: 3%;
-}
+} */
 div.card.c1, div.media{
-    margin-left: 20%;
+    margin-left: 8%;
     background-color: #f1f1f1;
-    width: 800px;
-    height: 200px;
+    width: 1000px;
+    height: 290px;
 }
 
 h3.card-title{
